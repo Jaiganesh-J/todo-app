@@ -6,7 +6,7 @@ class TodoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Todo
         fields = (
-            "serid",
+            "id",
             "title",
             "body",
         )
